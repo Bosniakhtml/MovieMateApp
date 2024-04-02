@@ -21,7 +21,7 @@ public class MovieRepository {
         Log.i(LOG_TAG, "MovieRepository Constructor");
         MovieRoomDatabase db = MovieRoomDatabase.getDatabase(application);
         mMovieDao = db.movieDao();
-        mAllMovies = mMovieDao.getAllMovies();
+//        mAllMovies = mMovieDao.getAllMovies();
     }
 
     // Method to get all Movies as LiveData

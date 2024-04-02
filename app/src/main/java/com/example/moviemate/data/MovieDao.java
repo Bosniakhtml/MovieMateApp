@@ -31,7 +31,7 @@ public interface MovieDao {
     void deleteAllMovies();
 
     // Retrieve all movies from the database sorted by name
-    @Query("SELECT * FROM movie_table ORDER BY name ASC")
-    LiveData<List<Movie>> getAllMovies();
+//    @Query("SELECT * FROM movie_table ORDER BY name ASC")
+//    LiveData<List<Movie>> getAllMovies();
 
 }
